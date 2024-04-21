@@ -21,7 +21,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get -y upgrade
 
-    sudo apt-get screen
+    sudo apt-get install -y screen
 
     # Install Python and pip
     sudo add-apt-repository ppa:deadsnakes/ppa -y
@@ -78,6 +78,11 @@ Vagrant.configure(2) do |config|
     # exec notebook
     cd /vagrant/notebooks
     # sudo runuser -u vagrant jupyter notebook
+
+    pip install jupyter_contrib_nbextensions 
+    jupyter contrib nbextension install --system 
+    jupyter nbextension enable codefolding/main
+
     jupyter notebook --allow-root > /dev/null 2>&1 &
     
   SHELL
