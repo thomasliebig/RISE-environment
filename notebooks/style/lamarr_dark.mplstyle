@@ -1,1 +1,14 @@
-dGV4dC5jb2xvcjogRkZGRkZGCgpheGVzLmZhY2Vjb2xvcjogICAgIDBDMTIyQiAgICMgYXhlcyBiYWNrZ3JvdW5kIGNvbG9yCmF4ZXMuZWRnZWNvbG9yOiAgICAgRkZGRkZGICAgIyBheGVzIGVkZ2UgY29sb3IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIHRleHQuY29sb3IgYXMgZGVmYXVsdCB2YWx1ZQpheGVzLmxhYmVsY29sb3I6ICAgIEZGRkZGRgoKYXhlcy5wcm9wX2N5Y2xlOiBjeWNsZXIoJ2NvbG9yJywgWyc0YTRhZDgnLCAnZWM2NDY5JywgJzM1Y2RiNCcsICdlODJlODInLCAnOTgzMDgyJywgJzhjNTY0YicsICc1OWJkZjcnLCAnNzA2ZjZmJywgJ2ZmYmMyOScsICcwMDllZTMnXSkKCnh0aWNrLmNvbG9yOiAgICAgICAgIEZGRkZGRiAgICMgY29sb3Igb2YgdGhlIHRpY2tzCnl0aWNrLmNvbG9yOiAgICAgICAgIEZGRkZGRiAgICMgY29sb3Igb2YgdGhlIHRpY2tzCgpmaWd1cmUuZmFjZWNvbG9yOiAgIDBDMTIyQiAgICAgIyBmaWd1cmUgZmFjZSBjb2xvcgpmaWd1cmUuZWRnZWNvbG9yOiAgIDBDMTIyQiAgICAgIyBmaWd1cmUgZWRnZSBjb2xvcgo=
+text.color: FFFFFF
+
+axes.facecolor:     0C122B   # axes background color
+axes.edgecolor:     FFFFFF   # axes edge color
+                             # text.color as default value
+axes.labelcolor:    FFFFFF
+
+axes.prop_cycle: cycler('color', ['4a4ad8', 'ec6469', '35cdb4', 'e82e82', '983082', '8c564b', '59bdf7', '706f6f', 'ffbc29', '009ee3'])
+
+xtick.color:         FFFFFF   # color of the ticks
+ytick.color:         FFFFFF   # color of the ticks
+
+figure.facecolor:   0C122B     # figure face color
+figure.edgecolor:   0C122B     # figure edge color
